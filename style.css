@@ -1,0 +1,354 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Exo 2', sans-serif;
+}
+nav{
+    font-family:;
+    border-bottom: 1px solid gray;
+}
+nav span{
+    border-radius: 3px;
+    color: white;
+}
+nav a{
+    font-variant: small-caps; 
+}
+nav a strong{
+    color:#fff;
+}
+nav ul li a{
+     color: #fff;
+}
+nav li a:hover{
+    color: darkorange;
+}
+.icon-bar {
+      position: fixed;
+      top: 50%;
+       right: 0;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      z-index: 99999;
+}
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+.icon-bar a:hover {
+    background-color: #000;
+}
+.facebook {
+    background: darkslategrey;
+    color: white;
+    border-radius: 5px 0px 0px 0px;
+}
+.twitter {
+    background: darkslategrey;
+    color: white;
+}
+
+.google {
+   background: darkslategrey;
+   color: white;
+}
+
+.linkedin {
+  background: darkslategrey;
+  color: white;
+}
+
+.youtube {
+  background: darkslategrey;
+  color: white;
+  border-radius: 0px 0px 0px 5px;
+}
+#HomeSection{
+    margin: 0;
+    padding: 0;
+    background-image: url(img/leaf.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    font-family: 'Exo 2', sans-serif;
+}
+
+#HomeSection .overlay{
+    background-color: rgba(0,0,40,0.2);
+    width: 100%;
+    min-height: 100%
+}
+#HomeSection h1{
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.banner-area h2{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 3.5em;
+    color: darkslategrey;
+    text-decoration: underline;
+    font-family: 'Exo 2', sans-serif;
+}
+
+#AboutMe{
+    background-color: #222831;
+    font-family: 'Exo 2', sans-serif;
+}
+#AboutMe i{
+   background-color:;
+    border: 1px solid gray;
+    padding: 15px;
+    border-radius: 50%;
+    color: white;
+    margin-right: 5px;
+
+}
+.contactaddress h4{
+    margin: 0;
+    font-weight: bold;
+    font-size: 20px;
+    color: darkslategrey;
+    font-family: 'Exo 2', sans-serif;
+}
+.contactaddress h5{
+    margin: 0;
+    color: #fff;
+    font-family: 'Exo 2', sans-serif;
+}
+#About{
+    background-color: #0f0f0f;
+    font-family: 'Exo 2', sans-serif;
+}
+#About h2{
+    color: #fff;
+    margin-top: 50px;
+    font-family: 'Exo 2', sans-serif;
+}
+#About p{
+    color: #fff;
+    font-family: 'Exo 2', sans-serif;
+}
+#About img{
+    width: 300px;
+    height: 450px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+#SkillProgress{
+    background-image: url(img/skill.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    font-family: 'Exo 2', sans-serif;
+}
+#SkillProgress h4{
+    color: #fff;
+    font-size: 30px;
+}
+#SkillProgress .overley{
+    background-color: rgba(0,20,0,0.6);
+    width: 100%;
+    height: 100%;
+}
+.circle .chart{
+    position: relative;
+    width: 110px;
+    height: 110px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+    line-height: 110px;
+    color: darkslategrey;
+    font-family: 'Exo 2', sans-serif;
+}
+.circle .chart canvas{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.circle h2{
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 5px;
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+}
+#SkillProgress h4{
+    color: darkslategrey;
+    font-family: 'Exo 2', sans-serif;
+}
+#Expert{
+    background-color: #0f0f0f;
+    font-family: 'Exo 2', sans-serif;
+}
+#Expert .head{
+    text-align: center;
+}
+
+#Expert .head h2{
+    margin-top: 0;
+    font-family: 'Exo 2', sans-serif;
+}
+
+#Expert h1{
+    color: darkslategrey;
+    font-size: 30px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+#Expert h2{
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 0;
+    font-family: 'Exo 2', sans-serif;
+}
+#Expert p{
+    color: #fff;
+    margin-top: 5px;
+}
+#Portfolio{
+    background-color: #222831;
+    font-family: 'Exo 2', sans-serif;
+}
+
+#Portfolio .head{
+    text-align: center;
+}
+
+#Portfolio .head h2{
+    margin-top: 0;
+    color: #fff;
+    font-family: 'Exo 2', sans-serif;
+}
+
+#Portfolio .card{
+    margin: 20px 20px ;
+    background-color: #474747;
+    font-family: 'Exo 2', sans-serif;
+}
+#Portfolio .card h2{
+    color:darkseagreen;
+    font-family: 'Exo 2', sans-serif;
+}
+#Portfolio .card p{
+      color: #fff;
+}
+#Portfolio .card button{
+      color: #fff;
+}
+.inner{
+    overflow: hidden;
+}
+.inner img{
+    transition: all 1s ease;
+}
+.inner:hover img{
+      transform: scale(1.5);
+}
+
+
+#ContactUs{
+    background-color: #161618;
+    font-family: 'Exo 2', sans-serif;
+}
+#ContactUs h4{
+    margin: 0;
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Exo 2', sans-serif;
+}
+#ContactUs h3{
+    margin: 0;
+    font-weight: bold;
+    color: darkslategrey;
+    font-family: 'Exo 2', sans-serif;
+}
+
+#ContactUs hr{
+     border: 1px solid #fff;
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+#ContactUs p{
+    margin: 0;
+    color: #fff;
+}
+
+#ContactUs i{
+    margin: ;
+    color: #FBC320;
+}
+
+#ContactBox{
+    background-image: url(img/contact.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Exo 2', sans-serif;
+}
+#ContactBox .overley{
+    background-color: rgba(0,20,0,0.3);
+    width: 100%;
+    height: 100%;
+}
+#ContactBox h3{
+    color: white;
+    font-weight: bold;
+    font-family: 'Exo 2', sans-serif;
+}
+#ContactBox p{
+    color: #fff;
+}
+#ContactBox input{
+    background: none;
+    border: none ;
+    border-bottom: 3px solid gray;
+    border-radius: 0;
+}
+#ContactBox textarea{
+    background: none;
+    border: none ;
+    border-bottom: 3px solid gray;
+    border-radius: 0;
+}
+
+#Footer{
+    background:  #161618;
+    font-family: 'Exo 2', sans-serif;
+}
+#Footer i{
+    color: white;
+    margin: 5px;
+}
+#Footer .top i{
+    background-color: darkslategrey;
+    padding: 10px;
+    margin: 0px;
+}
